@@ -41,7 +41,8 @@ function images() {
 function libsJs() {
   return src([
     'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
-    'node_modules/swiper/swiper-bundle.min.js'
+    'node_modules/swiper/swiper-bundle.min.js',
+    'node_modules/imask/dist/imask.js',
   ])
       .pipe(concat('libs.min.js'))
       .pipe(dest('app/js'))

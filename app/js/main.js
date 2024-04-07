@@ -25,3 +25,10 @@ if(window.innerWidth > 1199) {
     spaceBetween: 24
   });
 }
+
+//phone mask
+const element = document.querySelector('.phone-mask');
+const maskOptions = {
+  mask: '+{7}(000)000-00-00'
+};
+const mask = IMask(element, maskOptions);

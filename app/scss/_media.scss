@@ -72,6 +72,9 @@
     font-size: 17px;
     line-height: 120%;
   }
+  .review {
+    width: 100%;
+  }
 }
 
 //tablets
@@ -216,6 +219,28 @@
     font-size: 16px;
     line-height: 120%;
     margin-top: 7px;
+  }
+  .title-lg {
+    font-size: 45px;
+  }
+  .article-img img {
+    max-height: 450px;
+  }
+  .review {
+    width: 100%;
+  }
+  .similar-list {
+    gap: 30px 15px;
+  }
+  .similar-item-img {
+    height: 220px;
+  }
+  .similar-item-caption {
+    padding: 16px 0;
+    gap: 8px;
+    h6 {
+      font-size: 17px;
+    }
   }
 }
 
@@ -474,6 +499,55 @@
   }
   .partner-item-caption p {
     margin-top: 5px;
+  }
+  .title-lg {
+    font-size: 30px;
+  }
+  .article {
+    gap: 30px;
+  }
+  .article-img img {
+    max-height: 250px;
+  }
+  .article-text {
+    gap: 20px;
+  }
+  .review {
+    width: 100%;
+  }
+  .review-write {
+    gap: 15px;
+  }
+  textarea {
+    padding: 15px 10px;
+  }
+  .review-list {
+    gap: 30px;
+  }
+  .review-item-content-text {
+    margin-top: 10px;
+  }
+  .similar-top {
+    justify-content: center;
+  }
+  .similar-top .btn-main {
+    display: none;
+  }
+  .similar-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .similar-item-caption {
+    gap: 10px;
+  }
+  .similar-btn-sm {
+    display: flex;
+    margin-top: 24px;
+  }
+  .modal-title {
+    font-size: 40px;
   }
 }
 
